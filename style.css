@@ -1,0 +1,35 @@
+/* reset basic CSS styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    width: 785px;
+    background-color: white;
+    flex-flow: column wrap;
+  }
+
+  header {
+    background-color: #1f2937;
+  }
+
+  .logo {
+    color: #f9faf8;
+    font-size: 24px;
+  }
