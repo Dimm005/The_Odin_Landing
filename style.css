@@ -99,3 +99,36 @@
     width: 300px;
     flex: 1 1 300px;
   }
+
+  .information h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .info-blocks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+  }
+
+  .block {
+    flex: 0 1 170px;
+    text-align: center;
+  }
+
+  .block img {
+    width: 170px;
+    border: #3882f6 solid 3px;
+    border-radius: 10px;
+    flex: 0 1 170px;
+  }
+
+  .block p {
+    font-size: 18px;
+    text-align: center;
+  }
