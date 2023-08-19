@@ -188,3 +188,11 @@
     color: white;
     font-size: 18px;
   }
+
+  footer {
+    background-color: #1f2937;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
