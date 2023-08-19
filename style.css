@@ -31,7 +31,7 @@
 
   header {
     background-color: #1f2937;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -60,14 +60,18 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 20px;
-    gap: 50px;
+    padding: 50px;
+    gap: 100px;
     width: 100%;
   }
 
   .hero-text {
     flex: 1 1 300px;
     align-self: stretch;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    gap: 20px;
   }
 
   .hero-text h2 {
@@ -81,10 +85,17 @@
     font-size: 18px;
   }
 
-  .hero-img {
-    flex: 1 1 300px;
+  .hero-text button {
+    color: white;
+    background-color: #3882f6;
+    width: 150px;
+    font-size: 18px;
+    padding: 7px;
+    border: #3882f6 2px;
+    border-radius: 5px;
   }
 
-  .hero-img img {
+  .hero img {
     width: 300px;
+    flex: 1 1 300px;
   }
