@@ -132,3 +132,20 @@
     font-size: 18px;
     text-align: center;
   }
+
+  .qoute {
+    background-color: #e5e7eb;
+    padding: 80px 200px;
+  }
+
+  .qoute p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    margin-bottom: 30px;
+  }
+
+  .qoute h2 {
+    text-align: right;
+  }
