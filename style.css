@@ -149,3 +149,42 @@
   .qoute h2 {
     text-align: right;
   }
+
+  .action {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 150px;
+  }
+
+  .blue-action {
+    background-color: #3882f6;
+    border: #3882f6 solid 2px;
+    border-radius: 10px;
+    padding: 40px 120px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .blue-action button {
+    color: white;
+    background-color: #3882f6;
+    width: 150px;
+    font-size: 18px;
+    padding: 7px;
+    border: white solid 2px;
+    border-radius: 5px;
+  }
+
+  .blue-action h3 {
+    color: white;
+    font-size: 24px;
+  }
+
+  .blue-action p {
+    color: white;
+    font-size: 18px;
+  }
